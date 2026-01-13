@@ -1,0 +1,17 @@
+{
+  "name": "guandan-engine",
+  "version": "0.1.0",
+  "description": "Core logic engine for Guandan card game with AI",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0"
+  }
+}
